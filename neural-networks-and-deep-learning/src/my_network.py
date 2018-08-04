@@ -3,17 +3,11 @@ import random
 import numpy as np
 
 
-
-
 def sigma(x):
-
     return 1 / (1 + np.exp(-x))
 
 
-
 def reader_hourly(line, file_write):
-
-
     splitted = line.split()
     open_price = splitted[2]
     high_price = splitted[3]
@@ -52,18 +46,13 @@ def reader_daily(line, write_to_file):
     return result
 
 
-
-
-
 # Class network
 
 class network:
-
     file_read_daily = None
     file_read_hourly = None
     open_file_write = None
     open_file_data_all = None
-
 
     def __init__(self, error_of_calculation, num_of_layers, list_of_nurons_per_layer, data_file_list, x):
 
@@ -86,15 +75,6 @@ class network:
         # self.provide_data(network.file_read_daily, network.file_read_hourly, network.open_file_write)
         network.open_file_data_all = open(self.data_file[2], "r")
 
-
-
-
-
-
-
-
-
-
     def set_up(self, data_file_list):
 
         network.file_read_daily = open(data_file_list[0])
@@ -110,10 +90,6 @@ class network:
             self.list_of_biases.append(b)
             self.list_of_weights.append(w)
 
-
-
-
-
     def refresh(self):
 
         network.file_read_daily.close()
@@ -122,10 +98,6 @@ class network:
         network.file_read_daily = open(self.data_file_list[0])
         network.file_read_hourly = open(self.data_file_list[1])
         network.open_file_write = open(self.data_file_list[2], "w")
-
-
-
-
 
     def provide_data(self, daily, hourly, open_file_write):
 
@@ -148,14 +120,8 @@ class network:
                 res2 = reader_daily(line, open_file_write)
         open_file_write.close()
 
-            # line = file_read_hourly.readline()
+        # line = file_read_hourly.readline()
         network.open_file_data_all = open(self.data_file[2], "r")
-
-
-
-
-
-
 
     def read_one_set_of_data(self, name_of_file):
 
@@ -176,12 +142,7 @@ class network:
             label = s[2]
         return label, lst
 
-
-
-
-
-
-    def forward(self, X, y,  index, layer, num_nurons):
+    def forward(self, X, y, index, layer, num_nurons):
 
         lst = []
 
@@ -196,10 +157,6 @@ class network:
         self.list_of_z_i.append(y_inter)
         # print(y)
         return y
-
-
-
-
 
     def main_trainer(self, X, pre_num_nurons, num_of_layers):
 
@@ -217,17 +174,11 @@ class network:
             X = y
         return y
 
-
-
     def derivative(self, x):
 
         return sigma(x) * (1 - sigma(x))
 
-
-
-
-
-    def forward_trained(self, X, y,  index, layer, num_nurons):
+    def forward_trained(self, X, y, index, layer, num_nurons):
 
         lst = []
 
@@ -241,10 +192,6 @@ class network:
         self.list_of_a_i.append(y)
         self.list_of_z_i.append(y_inter)
         return y
-
-
-
-
 
     def main_trainer_trained(self, X, pre_num_nurons, num_of_layers):
 
@@ -285,7 +232,6 @@ class network:
 
         return Cost
 
-
     def modify_w(self, W):
         index = 0
         # index2 =0
@@ -303,7 +249,6 @@ class network:
 
         # some_w = np.array(W[0][index]).reshape((self.list_of_weights[index].shape[0], self.list_of_weights[index].shape[1]))
         some_w = np.array(W[0][index])
-
         while i < t:
 
             while row < d1:
@@ -323,13 +268,10 @@ class network:
                 index = index + 1
                 d1 = W[0][index].shape[0]
                 d2 = W[0][index].shape[1]
+                self.list_of_trained.get("w").append(some_w)
                 some_w = np.array(W[0][index])
+
             i = i + 1
-            self.list_of_trained.get("w")[i] = some_w
-
-
-
-
 
     def modify_b(self, W):
         index = 0
@@ -338,12 +280,11 @@ class network:
         sum_m = 0
         n = 0
         i = 0
-        t = len(self.num_layers)
+        t = self.num_layers
         d1 = W[0][index].shape[0]
         d2 = W[0][index].shape[1]
 
-        some_w = np.array([]).reshape((self.list_of_biases[index].shape()[0], self.list_of_biases[1]))
-
+        some_b = np.array(W[0][index])
         while i < t:
 
             while row < d1:
@@ -354,20 +295,19 @@ class network:
                         sum_m = sum_m + lst[index][row, col]
 
                         n = n + 1
-                    col = col + 1
                     mean = sum_m / n
-                    some_w[row, col] = mean
+                    some_b[row, col] = mean
+                    col = col + 1
                 row = row + 1
                 col = 0
 
                 index = index + 1
-                d1 = W[index].shape[0]
-                d2 = W[index].shape[1]
-                some_w = np.zeros(self.list_of_biases[index].shape()[0], self.list_of_weights[1])
-                i = i + 1
-            self.list_of_trained.get("b")[index] = some_w
+                d1 = W[0][index].shape[0]
+                d2 = W[0][index].shape[1]
+                self.list_of_trained.get("b").append(some_b)
+                some_b = np.array(W[0][index])
 
-
+            i = i + 1
 
     def back(self, y, desired_y):
 
@@ -409,7 +349,7 @@ class network:
         col_w = []
         col_b = []
         col = self.list_of_weights[p].shape[1]
-        C =0
+        C = 0
         index = 0
         w_t = []
         b_t = []
@@ -421,8 +361,7 @@ class network:
         layer_i = self.list_of_a_i[p]
 
         while p_index + self.num_layers <= 0:
-            while p + layer_i<= 0:
-
+            while p + layer_i <= 0:
 
                 for i in range(len(self.list_of_z_i[p].shape[1])):
                     z_i = self.list_of_z_i[p]
@@ -442,23 +381,14 @@ class network:
                     col_b.append(db)
                 col_w_np = np.array(col_w).reshape((w_t.shape[0], 1))
                 col_b_np = np.array(col_b).reshape((b_t.shape[0], 1))
-                delat_w[:, p -1] = col_w_np
-                delta_b[:, p- 1] = col_b_np
+                delat_w[:, p - 1] = col_w_np
+                delta_b[:, p - 1] = col_b_np
                 p = p - 1
-
-
 
             self.list_of_weights[p_index] = self.list_of_weights[p_index] + (delat_w).dot(self.alpha)
             self.list_of_biases[p_index] = self.list_of_biases[p_index] + (delta_b).dot(self.alpha)
             p_index = p_index - 1
             # print(self.list_of_weights)
-
-
-
-
-
-
-
 
     def training_procudure(self):
         # produce and X
@@ -467,7 +397,6 @@ class network:
         # print(new_data)
 
         while len(new_data[1]) != 0:
-
 
             lst_of_data = new_data[1]
             # print("dada")
@@ -494,8 +423,6 @@ class network:
             new_y = [c1, c2]
 
             while desired_y - y[desired_y] >= self.error:
-
-
                 #
                 # y = self.main_trainer(lst_of_data, self.initial_data_dim, self.num_layers)
                 #
@@ -511,16 +438,8 @@ class network:
                 self.back(np.array(new_y).reshape(2, 1), desired_y)
                 y = self.main_trainer(lst_of_data, self.initial_data_dim, self.num_layers)
 
-
-
             L1 = self.list_of_weights
             L2 = self.list_of_biases
-
-
-
-
-
-
 
             self.list_of_trained_w_and_b.get("w").append(L1)
 
@@ -530,18 +449,13 @@ class network:
 
             new_data = self.read_one_set_of_data(network.open_file_data_all)
 
-
         W = self.list_of_trained_w_and_b.get("w")
         B = self.list_of_trained_w_and_b.get("b")
 
         self.modify_w(W)
         self.modify_b(B)
 
-
-
-
-
-    def predict(self, data ):
+    def predict(self, data):
 
         y = self.main_trainer_trained(data, self.initial_data_dim, self.num_layers)
 
@@ -554,41 +468,22 @@ class network:
             return "sell"
 
 
-
 # what the user can do
 
 
 num = 3
 
 list_of_layers = [10, 10, 2]
-
+input_data_count = 24
+error = 0.01
 
 file_hourly = "/Users/amir/Desktop/fxtime/cur_hours.csv"
 file_daily = "/Users/amir/Desktop/fxtime/cur_daily.csv"
 des_file = "/Users/amir/Desktop/fxtime/currency_new_version.csv"
 
-lst_of_new_data = [0.78751 , 0.78761 , 0.78754
-,0.78743
-,0.7873
-,0.78741
-,0.7871
-,0.78773
-,0.78774
-,0.78776
-,0.78809
-,0.78805
-,0.78777
-,0.78823
-,0.78844
-,0.78807
-,0.78814
-,0.78814
-,0.78817
-,0.78834
-,0.78824
-,0.78821
-,0.78825 ,
-0.78833 ]
+lst_of_new_data = [0.78751, 0.78761, 0.78754, 0.78743, 0.7873, 0.78741, 0.7871,
+                   0.78773, 0.78774, 0.78776, 0.78809, 0.78805, 0.78777, 0.78823, 0.78844, 0.78807,
+                   0.78814, 0.78814, 0.78817, 0.78834, 0.78824, 0.78821, 0.78825, 0.78833]
 
 #
 # file_hourly = "/Users/amir/Desktop/fxtime/curr_hours_mod.csv"
@@ -600,13 +495,7 @@ lst_of_new_data = [0.78751 , 0.78761 , 0.78754
 
 
 
-nn = network(0.01, num, list_of_layers,[file_daily, file_hourly, des_file], 24)
-
-
+nn = network(error, num, list_of_layers, [file_daily, file_hourly, des_file], input_data_count)
 # it should print buy or sell
-
 nn.training_procudure()
 print(nn.predict(lst_of_new_data))
-
-
-
