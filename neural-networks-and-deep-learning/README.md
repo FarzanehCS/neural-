@@ -47,5 +47,11 @@ Give an example
 ## Acknowledgments
 
 Special Thanks to:
-*
-* etc
+
+
+## Acknowledgments
+
+Special Thanks to:
+* [3blue1brown](http://www.3blue1brown.com)
+* [http://neuralnetworksanddeeplearning.com](http://neuralnetworksanddeeplearning.com)
+
