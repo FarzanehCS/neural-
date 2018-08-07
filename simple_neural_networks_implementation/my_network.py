@@ -428,7 +428,6 @@ if __name__ == "__main__":
 
     file_hourly = "/Users/amir/Desktop/fxtime/cur_hours.csv"
     file_daily = "/Users/amir/Desktop/fxtime/cur_daily.csv"
-    # des_file = "/Users/amir/Desktop/fxtime/currency_new_version.csv"
     data_file = "/Users/amir/Desktop/fxtime/currency_new_version.csv"
 
     lst_of_new_data = [0.78751, 0.78761, 0.78754, 0.78743, 0.7873, 0.78741, 0.7871,

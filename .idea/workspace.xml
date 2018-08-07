@@ -1,7 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d84148b-d9e0-49b3-a56c-515d73e5b1ab" name="Default" comment="" />
+    <list default="true" id="2d84148b-d9e0-49b3-a56c-515d73e5b1ab" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/neural-networks-and-deep-learning.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/data/mnist.pkl.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/backprop_magnitude_nabla.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/backprop_magnitude_nabla.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/data_1000.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/digits.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/digits_separate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/false_minima.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/false_minima.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/generate_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/initial_gradient.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient_contours.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient_contours.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_100_digits.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_2_and_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_complete_zero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_first_digit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_other_features.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_really_bad_images.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_top_left_feature.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_comparison.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_log.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_rotated_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_svm.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/multiple_eta.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/multiple_eta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/multiple_eta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/norms_during_training_2_layers.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/norms_during_training_3_layers.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/norms_during_training_4_layers.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting_full.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/pca_hard_data.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/pca_hard_data_fit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/pca_limitations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized_full.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/relu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/relu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/sigmoid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/sigmoid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/step.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/step.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/tanh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/tanh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/serialize_images_to_json.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/test.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/training_speed_2_layers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/training_speed_3_layers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/training_speed_4_layers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_100.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/data1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/my_network.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/neural_data.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nn.iml" afterPath="$PROJECT_DIR$/.idea/nn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,62 +103,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
+    <leaf>
+      <file leaf-file-name="data_skikit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_network.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
+      <file leaf-file-name="scikit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="323" column="41" lean-forward="true" selection-start-line="323" selection-start-column="41" selection-end-line="323" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expand_mnist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/expand_mnist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="network.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="network2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="network3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="585">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,6 +133,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -91,13 +143,16 @@
         <option value="$PROJECT_DIR$/sala.py" />
         <option value="$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
         <option value="$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+        <option value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data3.py" />
+        <option value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py" />
+        <option value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="717" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -120,33 +175,39 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nn" />
+              <option name="myItemId" value="neural-networks-and-deep-learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neural-networks-and-deep-learning-master" />
+              <option name="myItemId" value="neural-networks-and-deep-learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nn" />
+              <option name="myItemId" value="neural-networks-and-deep-learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nn" />
+              <option name="myItemId" value="neural-networks-and-deep-learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="neural-networks-and-deep-learning-master" />
+              <option name="myItemId" value="simple_neural_networks_implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neural-networks-and-deep-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neural-networks-and-deep-learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="scikit_learn_neural_networks_implementation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -158,14 +219,16 @@
     <property name="options.lastSelected" value="configurable.group.tools" />
     <property name="options.splitter.main.proportions" value="0.32666665" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/neural-networks-and-deep-learning-master/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.my_network">
+  <component name="RunManager" selected="Python.scikit">
     <configuration default="false" name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,6 +259,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="nn" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="scikit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -334,14 +414,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.data" />
       <item index="1" class="java.lang.String" itemvalue="Python.my_network" />
+      <item index="2" class="java.lang.String" itemvalue="Python.scikit" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.my_network" />
-        <item index="1" class="java.lang.String" itemvalue="Python.data" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.scikit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.my_network" />
+        <item index="2" class="java.lang.String" itemvalue="Python.data" />
       </list>
     </recent_temporary>
   </component>
@@ -362,15 +444,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2279587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27323273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32053423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31987077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -401,377 +483,75 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4785">
-          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/-2010535109/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="477" column="4" lean-forward="false" selection-start-line="477" selection-start-column="4" selection-end-line="477" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py">
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/expand_mnist.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network2.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network3.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning/src/my_network.py" />
+    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning/src/neural_data.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/utils/validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="323" column="41" lean-forward="true" selection-start-line="323" selection-start-column="41" selection-end-line="323" selection-end-column="41" />
+        <state relative-caret-position="131">
+          <caret line="440" column="0" lean-forward="false" selection-start-line="440" selection-start-column="0" selection-end-line="440" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/expand_mnist.py">
+    <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/src/data_skikit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/src/scikit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -779,26 +559,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network.py">
+    <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network2.py">
+    <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/network3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
