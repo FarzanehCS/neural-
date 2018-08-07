@@ -17,12 +17,13 @@ then matrices that will be used in MLPClassifier will have theses shapes:
 * w -> p * first_hidden_layer_nurons_number
 * y -> N * 1
 * b -> N * 1
+
 where w and b are weights and biases matrices that you can see in the simple implementation version.
 aslo the point is that hidden_layer_sizes used in the number of hidden layers excluding the input and
 output layers. So if we need 2 hidden layers we will use a tupple (x, u) with x as the number of nurons
 in first layer and so on.
 
-### Prerequisites
+## Prerequisites
 
 * numpy
 * scikit-learn
