@@ -3,8 +3,9 @@
 *.pem
 *.pkl
 *.pyc
-.DS_Store
+/.DS_Store
 loc.py
 src/ec2
 .idea/
 .iml/
+
