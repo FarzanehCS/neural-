@@ -24,9 +24,9 @@ in first layer and so on.
 
 ### Prerequisites
 
-*numpy
-*scikit-learn
-*scipy
+* numpy
+* scikit-learn
+* scipy
 
 
 
