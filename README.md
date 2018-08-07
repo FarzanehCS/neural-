@@ -8,40 +8,24 @@ scipy libraries.
 
 ## Getting Started
 
+To work with the implementaion of Neural Newtwork using Scikit_learn , you have to
+consider num_samples as the number of rows and num_features as the number of columns of a
+matrix that will be the input matrix with the shape (num_samples, num_features).
+To Simplify reading the matrices' shapes, let num_samples be N and num_featrues be p.
+then matrices that will be used in MLPClassifier will have theses shapes:
+X .....> N * p
+w .....> p * first_hidden_layer_nurons_number
+y ....> N * 1
+b ....> N * 1
+where w and b are weights and biases matrices that you can see in the simple implementation version.
+aslo the point is that hidden_layer_sizes used in the number of hidden layers excluding the input and
+output layers. So if we need 2 hidden layers we will use a tupple (x, u) with x as the number of nurons
+in first layer and so on.
 
 ### Prerequisites
 numpy
 scikit-learn
 scipy
-
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 
 ## Acknowledgments
