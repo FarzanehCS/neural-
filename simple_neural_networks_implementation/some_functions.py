@@ -1,6 +1,8 @@
-
 import math
 import random
+
+import random
+import numpy as np
 
 
 # from_file = "/Users/amir/Desktop/fxtime/currency.cvs"
@@ -18,9 +20,7 @@ import random
 
 
 def sigma(x):
-
-    return 1/ (1 + math.exp(-x))
-
+    return 1 / (1 + math.exp(-x))
 
 
 #
@@ -49,11 +49,9 @@ def sigma(x):
 
 
 def comma(daily, write_to_h):
-
     daily_r = open(daily)
 
     write_w = open(write_to_h, "a")
-
 
     # line = daily_r.readline()
 
@@ -68,27 +66,7 @@ def comma(daily, write_to_h):
     write_w.close()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def reader_hourly(line, file_write):
-
     # file_read = open(file_to_read)
     # file_write = open(write_to_file, "a")
     # line = file_read.readline()
@@ -110,22 +88,10 @@ def reader_hourly(line, file_write):
     return result
 
 
-
-
-
-
-
-
-
-
-
-
 def file_reader_hourly(file_to_read, write_to_file):
-
     file_read = open(file_to_read)
     file_write = open(write_to_file, "a")
     line = file_read.readline()
-
 
     while line != "":
         splitted = line.split(sep="\t")
@@ -143,15 +109,11 @@ def file_reader_hourly(file_to_read, write_to_file):
         file_write.write(str(result[1]) + "\n")
 
 
-
 def file_reader_daily(file_to_read, write_to_file):
-
     file_read = open(file_to_read)
     open_file_to_write = open(write_to_file, "a")
     line = file_read.readline()
     line = file_read.readline()
-
-
 
     while line != "":
         splitted = line.split(sep="\t")
@@ -167,30 +129,6 @@ def file_reader_daily(file_to_read, write_to_file):
 
         open_file_to_write.write(str(result[0]) + " ")
         open_file_to_write.write(str(result[1]) + "\n")
-
-
-
-
-
-
-def reader_daily(line, write_to_file):
-    splitted = line.split(sep="\t")
-    open_price = splitted[1]
-    high_price = splitted[2]
-    low_price = splitted[3]
-    close_price = splitted[4]
-
-    if open_price <= close_price:
-        result = (round(sigma(float(open_price)), 5), "buy")
-    else:
-        result = (round(sigma(float(open_price)), 5), "sell")
-
-        write_to_file.write("OpenDaily" + " " + str(result[0]) + " ")
-        write_to_file.write(str(result[1]) + "\n")
-    return result
-
-
-
 
 
 # test
@@ -215,22 +153,109 @@ file_daily = "/Users/amir/Desktop/fxtime/cur_daily.csv"
 des_file1 = "/Users/amir/Desktop/fxtime/curr_hours_mod.csv"
 des_file2 = "/Users/amir/Desktop/fxtime/curr_daily_mod.csv"
 
-
-
-
 comma(file_daily, des_file2)
 comma(file_hourly, des_file1)
 
 
+def reader_daily(line, write_to_file):
+    """
+    :param line: the line to be processed and interpreted.
+    :type line: String
+    :param write_to_file: file to write to
+    :type write_to_file: open File
+    :return: tupple of values recveied in the string line
+    :rtype: tupple of integer and string
+    """
+
+    # print(line)
+    str2 = ""
+    splitted = line.split()
+    # print(splitted)
+    open_price = splitted[1]
+    high_price = splitted[2]
+    low_price = splitted[3]
+    close_price = splitted[4]
+    if open_price <= close_price:
+        result = (round(sigma(float(open_price)), 5), "buy")
+    else:
+        result = (round(sigma(float(open_price)), 5), "sell")
+        # write_to_file.write("OpenDaily" + " " + str(result[0]) + " " + str(result[1]) + "\n")
+        str2 = str(result[1])
+        # write_to_file.flush()
+        # os.fsync(write_to_file)
+        # print(result)
+    return str2
 
 
+# buy 1 and sell 0
+
+def provide_output(daily, file_write):
+    file_read_d = open(daily)
+    open_file = open(file_write, "a")
+    line = file_read_d.readline()
+    line = file_read_d.readline()
+    line = file_read_d.readline()
+
+    lst = []
+    # label = ""
+    c = 1
+    while c <= 50:
+        # line = file_read_h.readline()
+        if line != "":
+            splitted = line.split()
+            # print(splitted)
+            open_price = splitted[1]
+            high_price = splitted[2]
+            low_price = splitted[3]
+            close_price = splitted[4]
+            if open_price <= close_price:
+                result = (round(sigma(float(open_price)), 5), 0)
+            else:
+                result = (round(sigma(float(open_price)), 5), 1)
+            lst.append(result[1])
+            # print(c, float(open_price), str(result[1]))
+            open_file.write(str(result[1]) + ",")
+        line = file_read_d.readline()
+        c = c + 1
+
+    open_file.close()
+    return lst
 
 
+def provide_data(input_file, file_write):
+    file_read_d = open(input_file)
+    open_file = open(file_write, "a")
+    line = file_read_d.readline()
+    line = file_read_d.readline()
+    # line = file_read_d.readline()
 
+    lst = []
 
+    c = 1
+    # label = ""
+    while c <= 1200:
+        # line = file_read_h.readline()
+        if line != "":
+            splitted = line.split()
+            # print(splitted)
+            open_price = splitted[2]
+            high_price = splitted[3]
+            low_price = splitted[4]
+            close_price = splitted[5]
+            if open_price <= close_price:
+                result = (round(sigma(float(open_price)), 5), "buy")
+            else:
+                result = (round(sigma(float(open_price)), 5), "sell")
+            # print(c ,result[0])
+            lst.append(result[0])
+            open_file.write(str(result[0]) + ", ")
+            # print(c,float(open_price), str(result[0]))
+        line = file_read_d.readline()
 
+        c = c + 1
 
+        # open_file.flush()
 
-
-
-
+    open_file.close()
+    print(len(lst))
+    return lst
