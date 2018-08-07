@@ -23,19 +23,17 @@ output layers. So if we need 2 hidden layers we will use a tupple (x, u) with x 
 in first layer and so on.
 
 ### Prerequisites
-numpy
-scikit-learn
-scipy
 
+*numpy
+*scikit-learn
+*scipy
 
-## Acknowledgments
-
-Special Thanks to:
 
 
 ## Acknowledgments
 
 Special Thanks to:
+
 * [3blue1brown](http://www.3blue1brown.com)
 * [http://neuralnetworksanddeeplearning.com](http://neuralnetworksanddeeplearning.com)
 
