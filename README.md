@@ -13,10 +13,10 @@ consider num_samples as the number of rows and num_features as the number of col
 matrix that will be the input matrix with the shape (num_samples, num_features).
 To Simplify reading the matrices' shapes, let num_samples be N and num_featrues be p.
 then matrices that will be used in MLPClassifier will have theses shapes:
-X .....> N * p
-w .....> p * first_hidden_layer_nurons_number
-y ....> N * 1
-b ....> N * 1
+* X -> N * p
+* w -> p * first_hidden_layer_nurons_number
+* y -> N * 1
+* b -> N * 1
 where w and b are weights and biases matrices that you can see in the simple implementation version.
 aslo the point is that hidden_layer_sizes used in the number of hidden layers excluding the input and
 output layers. So if we need 2 hidden layers we will use a tupple (x, u) with x as the number of nurons
