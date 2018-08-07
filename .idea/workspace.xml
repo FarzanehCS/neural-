@@ -2,94 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d84148b-d9e0-49b3-a56c-515d73e5b1ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/neural-networks-and-deep-learning.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/data/mnist.pkl.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/backprop_magnitude_nabla.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/backprop_magnitude_nabla.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/data_1000.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/digits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/digits_separate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/false_minima.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/false_minima.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/generate_gradient.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/initial_gradient.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient_contours.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/misleading_gradient_contours.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_100_digits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_2_and_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_complete_zero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_first_digit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_other_features.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_really_bad_images.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/mnist_top_left_feature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_comparison.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_log.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_rotated_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/more_data_svm.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/multiple_eta.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/multiple_eta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/multiple_eta.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/norms_during_training_2_layers.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/norms_during_training_3_layers.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/norms_during_training_4_layers.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting_full.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/overfitting_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/pca_hard_data.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/pca_hard_data_fit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/pca_limitations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized_full.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/regularized_full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/relu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/relu.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/sigmoid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/sigmoid.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/step.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/step.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/tanh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/replaced_by_d3/tanh.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/serialize_images_to_json.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/training_speed_2_layers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/training_speed_3_layers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/training_speed_4_layers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/valley2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_100.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_30.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/fig/weight_initialization_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/data1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/my_network.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/neural_data.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nn.iml" afterPath="$PROJECT_DIR$/.idea/nn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py" afterPath="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py" afterPath="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,8 +21,8 @@
       <file leaf-file-name="data_skikit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="69" column="12" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -117,8 +31,8 @@
       <file leaf-file-name="scikit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -144,8 +58,8 @@
         <option value="$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/data.py" />
         <option value="$PROJECT_DIR$/neural-networks-and-deep-learning-master/src/my_network.py" />
         <option value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data3.py" />
-        <option value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py" />
         <option value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py" />
+        <option value="$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py" />
       </list>
     </option>
   </component>
@@ -445,9 +359,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27323273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23749007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -561,16 +475,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/data_skikit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="69" column="12" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scikit_learn_neural_networks_implementation/scikit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding />
         </state>
       </provider>

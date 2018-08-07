@@ -53,5 +53,35 @@ def provide_data(input_file, file_write):
         line = file_read_d.readline()
         c = c + 1
     open_file.close()
-    print(len(training_lst))
     return training_lst
+
+
+
+
+
+
+def provide_test(test_file):
+
+    file_read_d = open(test_file)
+    # open_file = open(file_write, "a")
+    line = file_read_d.readline()
+    line = file_read_d.readline()
+    line = file_read_d.readline()
+    lst = []
+
+    if line != "":
+        splitted = line.split()
+        open_price = splitted[1]
+        high_price = splitted[2]
+        low_price = splitted[3]
+        close_price = splitted[4]
+        if open_price <= close_price:
+            result = (round(float(open_price), 5), 0)
+        else:
+            result = (round(float(open_price), 5), 1)
+        lst.append(result[1])
+        # open_file.write(str(result[1]) + ",")
+    line = file_read_d.readline()
+
+    # open_file.close()
+    return lst
