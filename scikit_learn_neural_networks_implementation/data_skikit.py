@@ -63,7 +63,6 @@ def provide_data(input_file, file_write):
 def provide_test(test_file):
 
     file_read_d = open(test_file)
-    # open_file = open(file_write, "a")
     line = file_read_d.readline()
     line = file_read_d.readline()
     line = file_read_d.readline()
@@ -80,8 +79,6 @@ def provide_test(test_file):
         else:
             result = (round(float(open_price), 5), 1)
         lst.append(result[1])
-        # open_file.write(str(result[1]) + ",")
     line = file_read_d.readline()
 
-    # open_file.close()
     return lst
