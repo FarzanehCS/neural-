@@ -1,6 +1,6 @@
 # A simple sample for "Neural Networks and Deep Learning"
 
-# Notice These codes are written before I mastered Numpy better and so I might edit them ASAP.#
+* Notice These codes are written before I mastered Numpy better and so I might edit them ASAP.
 
 This is a sample implementaion of the "Neural Networks and Deep Learning".
 The Neural-networks-and-deep-learning package is the very basic implementation and the
