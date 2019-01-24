@@ -52,8 +52,6 @@ class Network:
                  first_layer_num_of_nurons):
 
         self.alpha = learning_rate
-        # self.set_up(data_file_list)
-        # self.provide_data(network.file_read_daily, network.file_read_hourly, network.open_file_write)
         self.initial_data_dim = first_layer_num_of_nurons
         self.error = error_of_calculation
         self.num_layers = num_of_layers
@@ -67,7 +65,6 @@ class Network:
         self.list_of_trained = {"w": [], "b": []}
         self.data_file = data_file_name
         self.set_up()
-        # self.provide_data(network.file_read_daily, network.file_read_hourly, network.open_file_write)
         Network.open_file_data = open(self.data_file, "r")
 
     def set_up(self):
@@ -79,7 +76,6 @@ class Network:
         :rtype: None
         """
 
-        # network.open_file_write = open(data_file_list[2], "w")
         pre = self.initial_data_dim
         for i in range(self.num_layers):
             w = np.random.random((self.num_nurons_lst[i], pre))
@@ -88,17 +84,7 @@ class Network:
             self.list_of_biases.append(b)
             self.list_of_weights.append(w)
 
-    #
-    # def refresh(self):
-    #
-    #     Network.file_read_daily.close()
-    #     Network.file_read_hourly.close()
-    #     Network.open_file_write.close()
-    #     Network.file_read_daily = open(self.data_file_list[0])
-    #     Network.file_read_hourly = open(self.data_file_list[1])
-    #     Network.open_file_write = open(self.data_file_list[2], "w")
-
-
+   
 
 
     def read_one_set_of_data(self, name_of_file):
@@ -108,14 +94,11 @@ class Network:
         for i in range(24):
             line = name_of_file.readline()
             if line != "":
-                # print("line is ...." + line)
                 s_line = line.split()
                 lst.append(float(s_line[0]))
 
         line = name_of_file.readline()
-        # print(line)
         if line != "":
-            # print(line)
             s = line.split()
             label = s[2]
         return label, lst
@@ -123,17 +106,13 @@ class Network:
     def forward(self, X, y, index, layer, num_nurons):
 
         lst = []
-
-        # for i in range(num_nurons):
         w = self.list_of_weights[layer]
         b = self.list_of_biases[layer]
         y_inter = w.dot(X) + b
         y = sigma(y_inter)
         lst.append(y)
-        # y = np.array(y).reshape(num_nurons, 1)
         self.list_of_a_i.append(y)
         self.list_of_z_i.append(y_inter)
-        # print(y)
         return y
 
     def main_trainer(self, X, pre_num_nurons, num_of_layers):
@@ -169,7 +148,6 @@ class Network:
 
     def main_trainer_trained(self, X, pre_num_nurons, num_of_layers):
 
-        # y = np.random.random((self.initial_data_dim, 1))
         y = []
         X = np.array(X).reshape((24, 1))
         index = 0
@@ -200,9 +178,6 @@ class Network:
 
         for l in range(len(y)):
             Cost = Cost + 2 * (y[l] - self.list_of_z_i)
-            # for i in range(list_of_layers[i]):
-            #     Cost = Cost + 2 * (y[l] - self.list_of_z_i)
-            # y = self.list_of_z_i[i]
 
         return Cost
 
@@ -330,29 +305,22 @@ class Network:
             self.list_of_weights[p_index] = self.list_of_weights[p_index] + (delat_w).dot(self.alpha)
             self.list_of_biases[p_index] = self.list_of_biases[p_index] + (delta_b).dot(self.alpha)
             p_index = p_index - 1
-            # print(self.list_of_weights)
 
     def training_procudure(self):
         # produce and X
         # while not the end of file
         new_data = self.read_one_set_of_data(Network.open_file_data)
-        # print(new_data)
 
         while len(new_data[1]) != 0:
 
             lst_of_data = new_data[1]
-            # print("dada")
-            # print(lst_of_data)
-
             label = new_data[0]
-            # print(label)
             if label == "buy":
                 desired_y = 0
             else:
                 desired_y = 1
             # cost and back
             # go forwards and train
-            # y = []
             y = self.main_trainer(lst_of_data, self.initial_data_dim, self.num_layers)
 
             # cost and back
@@ -365,17 +333,6 @@ class Network:
             new_y = [c1, c2]
 
             while desired_y - y[desired_y] >= self.error:
-                #
-                # y = self.main_trainer(lst_of_data, self.initial_data_dim, self.num_layers)
-                #
-                # # cost and back
-                # if desired_y == 0:
-                #     c1 = y[0] - 1
-                #     c2 = y[1] - 0
-                # else:
-                #     c1 = y[0] - 0
-                #     c2 = y[1] - 1
-                # new_y = [c1, c2]
 
                 self.back(np.array(new_y).reshape(2, 1), desired_y)
                 y = self.main_trainer(lst_of_data, self.initial_data_dim, self.num_layers)
@@ -386,9 +343,6 @@ class Network:
             self.list_of_trained_w_and_b.get("w").append(L1)
 
             self.list_of_trained_w_and_b.get("b").append(L2)
-            # print(L1)
-
-
             new_data = self.read_one_set_of_data(Network.open_file_data)
 
         W = self.list_of_trained_w_and_b.get("w")
@@ -414,8 +368,7 @@ class Network:
 
 
 
-
-            # what the user can do
+ # test
 
 
 if __name__ == "__main__":
@@ -434,14 +387,10 @@ if __name__ == "__main__":
                        0.78773, 0.78774, 0.78776, 0.78809, 0.78805, 0.78777, 0.78823, 0.78844, 0.78807,
                        0.78814, 0.78814, 0.78817, 0.78834, 0.78824, 0.78821, 0.78825, 0.78833]
 
-    #
-    # file_hourly = "/Users/amir/Desktop/fxtime/curr_hours_mod.csv"
-    # file_daily = "/Users/amir/Desktop/fxtime/curr_daily_mod.csv"
-    # des_file = "/Users/amir/Desktop/fxtime/currency_new_version_mod.csv"
+ 
 
-
-    # provide the data from two files (file1 shows the daily candles info and file2 shows the hourly
-    # candles info)
+    # provide the data from two files (file1 shows the daily candels info and file2 shows the hourly
+    # candels info)
     neural_data.provide_data(file_daily, file_hourly, data_file)
 
     print("I am here")
